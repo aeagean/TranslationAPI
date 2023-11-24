@@ -74,6 +74,7 @@ int main(int argc, char *argv[])
     QTextEdit *textOutput = new QTextEdit;
     textOutput->setReadOnly(true);
     QWidget w;
+    w.setWindowTitle("翻译小工具");
     w.resize(320, 240);
     QVBoxLayout *l = new QVBoxLayout;
     l->addWidget(textInput, 2);
